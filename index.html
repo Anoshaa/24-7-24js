@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box{
+        width: 100px;
+        height: 100px;
+        background-color: pink;
+        border: 1px solid black;
+
+    }
+    .box1{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        border: 1px solid black;
+    }
+    .box2{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        border: 1px solid black;
+    }
+    .box3{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        border: 1px solid black;
+    }
+    .box4{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        border: 1px solid black;
+    }
+    .box5{
+        width: 100px;
+        height: 100px;
+        background-color:grey;
+        border: 1px solid black;
+    }
+
+
+</style>
+
+<body>
+
+    <button onclick="console.log('you can click me many times');">click me</button>
+    <button ondblclick="console.log('you can click me seven times');">click me 7x times</button>
+    <a href="JavaScript:void(0)" onClick="alert('Hi');">Click</a>
+    <a href="#" onclick="alert('hi');">Click</a>
+
+    <!-- these are mouse events -->
+    <div class="container">
+<div class="box" onmouseover="console.log('you are inside box');"></div>
+<div class="box1" onmouseout="this.style.backgroundColor='purple';"></div>
+<div class="box2" onmousedown="this.style.backgroundColor='purple';"></div>
+<div class="box3" onmouseup="this.style.backgroundColor='yellow';"></div>
+<div class="box4" onload="this.style.backgroundColor='blue';"></div>
+<div class="box5" tabindex="0" onkeydown="this.style.backgroundColor='orange';"></div> 
+
+Email:<br> 
+<input type="text" size="30" onFocus="this.style.backgroundColor='yellow';" >
+Email:<br> 
+<input type="text" size="30" onblur="this.style.backgroundColor='white';" >
+</div>
+
+<input type="button" value="Click" onClick="alert('Hello world!');" >
+
+    <script>
+        function sayHi() {
+            alert("hellow world")
+        }
+        sayHi()
+
+        function sayBye() {
+            alert("buh Bye!")
+        }
+        sayBye()
+
+
+        // there are two types of comment 
+        // single line comment
+        /* multi line comment*/
+
+
+        // event chp. if u search , drag, click any thing.. change the state of object: mouse events, keyboard events, form event, print event//
+    
+            </script>
+
+            <script href="./script.js"></script>
+</body>
+</html>
